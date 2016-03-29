@@ -85,7 +85,7 @@ public class BST
                 finalAnswer += " "+ answerStack.peek().getPayload();
                 answerStack.pop();
             }
-            System.out.println("Level Order: " + answer);
+            System.out.println("Level Order: " + finalAnswer);
         }
     }
 
